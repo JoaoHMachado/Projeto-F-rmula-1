@@ -1,0 +1,32 @@
+.imgContainer:hover{
+    background-color: white;
+    transform: scale(1.0);
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.imgContainer:not(:hover){
+    background-color: white;
+    transform: scale(0.7);
+    transition: transform 1s;
+}
+
+.imgContainerDireita{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.imgContainerEsquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.imgContainerGeral{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
